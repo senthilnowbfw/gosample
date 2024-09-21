@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_senthilnowbfw_gosample_1726935270646-push-trigger-input-set
+  identifier: Build_senthilnowbfw_gosample_1726935270646pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: t2
+  pipeline:
+    identifier: Build_senthilnowbfw_gosample_1726935270646
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

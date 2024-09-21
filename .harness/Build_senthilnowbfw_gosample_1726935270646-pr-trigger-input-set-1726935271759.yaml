@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_senthilnowbfw_gosample_1726935270646-pr-trigger-input-set
+  identifier: Build_senthilnowbfw_gosample_1726935270646prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: t2
+  pipeline:
+    identifier: Build_senthilnowbfw_gosample_1726935270646
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
